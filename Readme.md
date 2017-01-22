@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
-
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/16/user/270623).
+* Студент: [Дмитрий Грязон](https://up.htmlacademy.ru/htmlcss/16/user/270623).
+* Наставник: [Иван Кузьмичев] (https://up.htmlacademy.ru/htmlcss/16/user/342395).
 
 ---
 
