@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <!--<p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>-->
@@ -29,12 +30,31 @@
         </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
+          <div class="index-modal">
+            <form action="/echo" method="post">
+              <fieldset>
+                <legend>Личный кабинет</legend>
+                <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+                <div>ВВЕДИТЕ ПОЖАЛУЙСТА СВОЙ ЛОГИН И ПАРОЛЬ</div>
+                <div class="index-modal-title">
+                  <input type="text" id="login" placeholder="ЛОГИН" required>
+                  <input type="text" id="password" placeholder="ПАРОЛЬ" required>
+                  <div class="index-modal-checkbox">
+                    <input id="checkbox-remember-me" type="checkbox" checked>
+                    <label for="checkbox-remember-me">ЗАПОМНИТЕ МЕНЯ</label>
+                    <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+                  </div>
+                  <input type="submit" value="ВОЙТИ">
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
     </header>
     <main class="container">
       <div class="index-logo">
-        <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+        <img src="img/index-BORODINSKI Logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
       </div>
       <section class="features">
         <div class="features-item">
@@ -69,7 +89,7 @@
           <h2 class="index-content-title">Фотогалерея</h2>
           <div class="gallery">
             <figure class="gallery-content">
-              <img src="img/photo-1.jpg" width="286" height="164" alt="">
+              <img src="img/index-chair-photo.jpg" width="286" height="164" alt="">
             </figure>
             <button class="btn gallery-prev" type="button">Назад</button>
             <button class="btn gallery-next" type="button">Вперёд</button>
@@ -101,6 +121,9 @@
             <button class="btn" type="submit">Отправить</button>
           </form>
         </div>
+      </div>
+      <div class="geolocation">
+        <img src="img/index-map mask.jpg" width="286" height="164" alt="">
       </div>
     </main>
     <footer class="main-footer">
