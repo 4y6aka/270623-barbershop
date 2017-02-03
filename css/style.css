@@ -64,6 +64,93 @@ h2 {
   margin-bottom: 25px;
   background-color: lime;
 }
+.nav-logo {
+  width: 111px;
+  background-color: blue;
+}
+
+.catalog-item-heading {
+  /*width: 600px;
+    min-height: 42px;*/
+  margin-bottom: 20px;
+  background-color: lime;
+}
+
+.catalog-heading {
+  margin-top: 65px;
+  margin-bottom: 20px;
+  background-color: lime;
+}
+
+.breadcrumbs {
+  min-height: 24px;
+  margin-bottom: 55px;
+  background-color: lime;
+}
+
+.catalog-item-images{
+  float:left;
+  width: 460px;
+  min-height: 670px;
+}
+
+.catalog-item-image-big {
+
+}
+
+.catalog-item-image-small {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.catalog-item-image-small:last-child {
+  margin-right: 0;
+}
+
+.catalog-item-right {
+  float: right;
+  width: 390px;
+  min-height: 670px;
+  background-color: blue;
+}
+
+.catalog-content-left {
+  float: left;
+  width: 220px;
+  min-height: 680px;
+  background-color: lime;
+}
+
+.catalog-content-right {
+  float: right;
+  width: 700px;
+  min-height: 680px;
+  background-color: lime;
+  font-size: 0px;
+}
+
+.catalog-goods {
+  display: inline-block;
+  width: 220px;
+  min-height: 286px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  background-color: blue;
+}
+
+.catalog-goods figure {
+  margin: 0;
+}
+
+.page-select a {
+  font-size: 14px;
+}
+
+.catalog-goods:nth-child(3n) {
+  margin-right: 0;
+}
 
 .features {
   margin-bottom: 80px;
@@ -85,6 +172,7 @@ h2 {
 .index-content {
   margin-bottom: 35px;
   padding: 50px 80px;
+  background-color: blue;
 }
 
 .index-content-left {
@@ -111,7 +199,7 @@ h2 {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-
+  background-color: blue;
 }
 
 .footer-contacts {
