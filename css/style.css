@@ -42,7 +42,7 @@ h2 {
 
 .main-navigation {
   float: left;
-  width: 780px;
+  width: 620px;
   /* Только для оформления сетки */
   min-height: 70px;
   background-color: lime;
@@ -65,7 +65,9 @@ h2 {
   background-color: lime;
 }
 .nav-logo {
-  width: 111px;
+  float: left;
+  width: 140px;
+  margin-right: 20px;
   background-color: blue;
 }
 
@@ -92,10 +94,7 @@ h2 {
   float:left;
   width: 460px;
   min-height: 670px;
-}
-
-.catalog-item-image-big {
-
+  background-color: lime;
 }
 
 .catalog-item-image-small {
@@ -137,6 +136,7 @@ h2 {
   margin-right: 20px;
   margin-bottom: 20px;
   vertical-align: top;
+  font-size: 14px;
   background-color: blue;
 }
 
